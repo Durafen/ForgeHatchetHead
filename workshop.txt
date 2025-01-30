@@ -1,0 +1,8 @@
+version=1
+id=3417169903
+title=Forge Hatchet Head
+description=Adds a recipe for forging Hatchet Head.
+description=
+description=Advance Forge and level 6 Metalworking required.
+tags=Build 42;Weapons
+visibility=public
