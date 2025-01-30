@@ -1,0 +1,3 @@
+RecipesEN{
+   Forge_Hatchet_Head = "Forge Hatchet Head",
+}

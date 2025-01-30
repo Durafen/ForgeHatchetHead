@@ -1,0 +1,27 @@
+module Base
+{
+	craftRecipe Forge_Hatchet_Head 
+    {
+        time        = 10,
+        SkillRequired = Blacksmith:4,
+        timedAction = Making,
+        xpAward = Blacksmith:50,
+        tags = Forge,
+        category = Tools,
+        OnCreate = Recipe.OnCreate.MakeBlunt,
+        inputs
+        {
+            item 1 tags[Charcoal],
+            item 1 tags[BarStockHalf],
+            item 1 tags[SmithingHammer] mode:keep,
+            item 1 tags[MetalworkingPliers;Tongs] mode:keep,
+            item 1 tags[Whetstone] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.HandAxeHead,
+        }
+    }
+
+}
+
