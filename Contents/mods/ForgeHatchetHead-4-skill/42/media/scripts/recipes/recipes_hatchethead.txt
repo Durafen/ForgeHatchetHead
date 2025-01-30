@@ -13,7 +13,7 @@ module Base
         {
             item 1 tags[Charcoal],
             item 1 tags[BarStockHalf],
-            item 1 tags[SmithingHammer] mode:keep,
+            item 1 tags[Hammer] mode:keep,
             item 1 tags[MetalworkingPliers;Tongs] mode:keep,
             item 1 tags[Whetstone] mode:keep,
         }
